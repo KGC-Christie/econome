@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <h1>This is SPARTA!!!</h1>
-  </div>
+  <v-theme-provider root>
+    <div></div>
+  </v-theme-provider>
 </template>
 
 <script>
