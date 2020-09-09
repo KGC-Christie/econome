@@ -1,6 +1,6 @@
 <template>
   <v-theme-provider root>
-    <div></div>
+    <div>This is the Econome App</div>
   </v-theme-provider>
 </template>
 

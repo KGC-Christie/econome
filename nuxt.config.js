@@ -25,6 +25,15 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
   ],
+  pwa: {
+    icon: true,
+    meta: { theme_color: '#FDA59E' },
+    manifest: {
+      name: 'Econome',
+      display: 'standalone',
+      theme_color: '#FDA59E',
+    }
+  },
   axios: {},
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
