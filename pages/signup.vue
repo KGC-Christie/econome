@@ -17,14 +17,14 @@
               <v-text-field label="Password" type="password" outlined dense hide-details class="mb-2">
                 <v-icon slot="append" color="secondary" small class="mt-1">mdi-eye</v-icon>
               </v-text-field>
-              <v-btn color="primary" class="white--text mb-5" @click="login">Login</v-btn>
+              <v-btn color="primary" class="white--text mb-5" @click="login">Sign up</v-btn>
               <v-divider class="mb-5"></v-divider>
               <v-row class="pt-0">
                 <v-col class="pt-0"><v-btn color="facebook" class="white--text mb-2" dense block outlined><v-icon color="facebook">mdi-facebook</v-icon></v-btn></v-col>
                 <v-col class="pt-0"><v-btn color="google" class="white--text mb-2" dense block outlined><v-icon color="google">mdi-google</v-icon></v-btn></v-col>
               </v-row>
               <v-divider class="mb-5"></v-divider>
-              <p class="secondary--text">Don't have an account? <nuxt-link to="/signup">Sign up</nuxt-link></p>
+              <p class="secondary--text">Already have an account? <nuxt-link to="/">Login</nuxt-link></p>
             </v-col>
           </v-row>
         </v-col>

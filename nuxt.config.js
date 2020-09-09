@@ -4,18 +4,18 @@ export default {
   mode: 'spa',
   target: 'static',
   head: {
-    titleTemplate: '%s - ' + process.env.npm_package_name,
-    title: process.env.npm_package_name || '',
+    titleTemplate: 'Econome',
+    title: 'Econome',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width,initial-scale=1.0' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: 'Econome App' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  css: [],
+  css: [{ src: "~/assets/main.scss", lang: "scss" }],
   plugins: [],
   components: true,
   buildModules: [
@@ -27,7 +27,6 @@ export default {
   ],
   pwa: {
     icon: true,
-    meta: { theme_color: '#FDA59E' },
     manifest: {
       name: 'Econome',
       display: 'standalone',
@@ -43,7 +42,10 @@ export default {
           primary: '#FDA59E',
           background: '#FFFFFF',
           accent: '#666666',
-          secondary: colors.amber,
+          secondary: '#707070',
+          white: '#FFFFFF',
+          facebook: '#3B5999',
+          google: '#DE5245',
           info: colors.teal,
           warning: colors.amber,
           error: colors.deepOrange,
@@ -51,9 +53,12 @@ export default {
         },
         dark: {
           primary: '#FDA59E',
-          background: '#4C3E3E',
+          background: '#222222',
           accent: '#FDA59E',
-          secondary: colors.amber.darken3,
+          secondary: '#707070',
+          white: '#FFFFFF',
+          facebook: '#3B5999',
+          google: '#DE5245',
           info: colors.teal.lighten1,
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,
