@@ -65,7 +65,7 @@
 <script>
 export default {
   data () { return {
-    drawer: true
+    drawer: false
   } },
 }
 </script>
