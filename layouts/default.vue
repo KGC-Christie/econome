@@ -4,7 +4,7 @@
       <template>
         <v-app-bar color="background">
           <v-app-bar-nav-icon @click="drawer = true" color="primary"></v-app-bar-nav-icon>
-          <v-toolbar-title class="primary--text">Econome App</v-toolbar-title>
+          <v-toolbar-title class="primary--text">Econome</v-toolbar-title>
           <v-spacer></v-spacer>
           <v-btn icon>
             <v-icon color="primary">mdi-magnify</v-icon>
